@@ -1,6 +1,7 @@
+new WOW().init();
 var animaciones ={
     carrusel: function(){
-        jQuery('.owl-carousel').owlCarousel({
+        jQuery('.owl-carousel').owlCarousel({   
 		    loop:true,
 		    margin:10,
             autoplay: true,
@@ -19,6 +20,15 @@ var animaciones ={
 		        }
 		    }
 		})
+
+        jQuery('.fotorama').fotorama({
+            width: 1200,
+            arrow: 'always',
+            maxwidth: '100%',
+            ratio: 16/9,
+            allowfullscreen: true,
+            nav: 'thumbs'
+          })
     }        
 }
 

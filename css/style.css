@@ -38,9 +38,7 @@ header .container nav img{
 main{
     position: relative;
 }
-main .container .fila .columna{
-    border: 1px solid black;
-}
+
 main .cuerpo{
     background-image: url(../img/Forma.png);
     background-position: 100%;
@@ -67,7 +65,17 @@ main .container .contenido img{
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #E662FB;
 }
-
+/* .galeria{
+    display: inline;
+    width: 30%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.galeria .fotograma img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+} */
 
 .container{
     padding-right: 230px;
