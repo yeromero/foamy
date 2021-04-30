@@ -65,12 +65,46 @@ main .container .contenido img{
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #E662FB;
 }
-/* .galeria{
-    display: inline;
-    width: 30%;
+.galeria{
     margin-left: 50%;
     transform: translate(-50%);
 }
+
+
+.container .trama-video{
+    width: 1366px;
+    height: 50px;
+    border: 1px solid black;
+    position: relative;
+}
+.video-fondo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(1);
+}
+.formulario{
+    display: flex;
+    position: relative;
+    left: 60%;
+}
+.bloque-titulo{
+    display: flex;
+    align-items: center;
+    background-color: #ddb6e3;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 60px;
+    border: 1px solid black;
+    box-shadow: -8px 17px 15px 5px #5A3061;
+}
+.formulario form{
+    padding-left: 10%;
+}
+/*
 .galeria .fotograma img{
     width: 50%;
     margin-left: auto;
