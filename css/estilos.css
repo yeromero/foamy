@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 0.78vw;
+}
+/* html{
+    font-size: 15px;
+} */
+body{
+    background-color: #DDB6E3;
+    font-family: 'Chewy', cursive;
+}
+img{
+    width: 100%;
+}
+header, main, footer{
+    margin-left: 15.33rem;
+    margin-right: 15.33rem;
+}
+.seccion{
+   margin-top: 6rem; 
+   margin-bottom: 6rem;
+}
+/*Clases Elementos*/
+.owl-theme .owl-dots .owl-dot span{
+    background-color: #AF12C7;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+    background-color: #E662FB;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #E662FB;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.columna-50{
+    width: 50%;
+}
+.columna-33{
+    width: 33.33%;
+}
+/*Footer*/
+footer{
+    background-color: rgba(221, 182, 227, 0.329);
+}
+footer .panel ul li{
+    color: #5A3061 ;
+    list-style: none;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    left: ;
+}
+footer .panel ul li a{
+    color: #5A3061 ;
+    text-decoration: none;
+}
+footer .container .centro{
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .container .centro img{
+    width: 30rem;
+}
+footer .container .centro i{
+    color: #5A3061;
+}
+footer .container .left{
+    text-align: left;
+}
+footer .container .right{
+text-align: right;
+}
+/*Parte de Incio de la Pagina*/
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecera img{
+    width: 13.33rem;
+}
+.cabecera nav{
+
+}
+.cabecera nav a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.cabecera nav a:hover{
+    background-color: #b5fcfe;
+    border-radius: 1rem;
+}
+main section .cuerpo{
+    background-image: url(../img/Forma.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main section .owl-carousel{
+    margin: 1.4rem;
+}
+main section .owl-carousel img{
+    border-radius: 1.33rem;
+}
+/*Nosotros*/
+main section .card{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 33.33rem;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+main section .card .imagen-card{
+    position: relative;
+    width: 500px;
+
+}
+main section .card .imagen-card span{
+    position: absolute;
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    margin: 1.6rem;
+    font-size: 1.6rem;
+    text-shadow: 2px 5px 5px rgba(255,255,255,0.6);
+}
+main section .card .card-contenido{
+    background-color: #fff;
+    padding: 1.6rem;
+    text-align: justify;
+}
+main section .nosotros{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Galeria*/
+main #galeria h2{
+    text-align: center;
+    font-size: 5rem;
+} 
+main section .galeria{
+    margin-left: 45%;
+    transform: translate(-45%);
+}
+.fotorama__thumb-border{
+    border-color: darkblue;
+}
+/*Contactenos*/
+#contactenos .columna{
+    position: relative;
+}
+main section .video-fondo{
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+main #contactenos .video-fondo .fondo{
+    position: relative;
+    width:100%;
+    top:0px;
+    left:0px;
+    object-fit: cover;
+    object-position: center;
+}
+main section .video-fondo .fondo video{
+    width: 100%;
+    filter: grayscale(1);
+    
+}
+ main #contactenos .formulario{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    padding-right: 2rem;
+    padding-bottom: 9rem;
+}
+main #contactenos .formulario .titulo-frm{
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    color: #DDB6E3  ;
+    background-color: #B5FCFE;
+    padding: 1rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+main #contactenos .formulario input,
+main #contactenos .formulario textarea{
+    text-align: center;
+    font-size: 1.6em;
+    width: 22rem;
+    margin-top: .2rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid #D673E6;
+    background: none;
+    background-color: #B5FCFE;
+    border-radius: 2rem;
+
+}
+main #contactenos .formulario input::placeholder,
+main #contactenos .formulario textarea::placeholder{
+    color: #C4C4C4;
+}
+main #contactenos .formulario textarea{
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    height: 13rem;
+    resize: none;
+    border: none;
+}
+main #contactenos .formulario .btn{
+    width: 10rem;
+    border-radius: 1.33rem;
+    border: none;
+    color: #DDB6E3;
+}
+
+.derechos{
+    height: 6.6rem;
+    background-color: rgba(142, 104, 148, 0.336);
+    padding-top: auto;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.derechos p{
+    text-align: center;
+}

@@ -5,121 +5,266 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/0c1f617940.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="libs/wow/animate.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="libs/owl/css/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/owl/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="libs/fotorama/fotorama.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/jquery.js"></script>
+    <script src="libs/owl/js/owl.carousel.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/jquery.js"></script>
-    <script src="libs/owl/js/owl.carousel.js"></script>
     <script src="libs/fotorama/fotorama.js"></script>
-    <script src="libs/wow/wow.js"></script>
     <title>Bienvenidos a Foamy</title>
 </head>
 <body>
     <header>
-        <div class="container">
-            <a href="#" class="wow slideInDown">
-                <img src="img/Logo.png" alt="">
+        <div class="cabecera">
+            <a href="">
+                <img src="img/Logo.png" alt="Logo_Foamy">
             </a>
-            <nav class="wow slideInDown">
-                <a href="#" ><img src="img/Home-Hart.png" alt=""> Inicio</a>
-                <a href="#" ><i class="fas fa-users">Nosotros</i></a>
-                <a href="#" ><i class="far fa-images"></i>Galeria</a>
-                <a href="#" ><i class="fas fa-assistive-listening-systems">Contactenos</i></a>
+            <nav>
+                <a href=""><i class="fas fa-house-user">Inicio</i></a>
+                <a href=""><i class="fas fa-users">Nosotros</i></a>
+                <a href=""><i class="fas fa-images">Galeria</i></a>
+                <a href=""><i class="fas fa-id-card-alt">Contactenos</i></a>
             </nav>
         </div>
     </header>
-    <main>
-        <section id="cuerpo">
-            <div class="container wow slideInLeft">
-                <div class="fila">
-                    <div class="columna cuerpo">
-                        <div class="contenido">
-                            <div class="owl-carousel owl-theme">
-                                <div class="item">
-                                    <img src="img/arte1.jpg" alt="">
-                                    <h3>Tenemos Las Mejores Creaciones que cautivaran tus sentidos</h3>
-                                </div>
-                                <div class="item">
-                                    <img src="img/arte2.jpg" alt="">
-                                    <h3>Cada Creación es hecha con amor y dedicación</h3>
-                                </div>
-                                <div class="item">
-                                    <img src="img/arte3.jpg" alt="">
-                                    <h3>Plasmamos lo mejores momentos en cada creación </h3>
-                                </div>
+   <main>
+        <section>
+                <div class="fila cuerpo">
+                    <div class="columna columna-50">
+                         <div class="owl-carousel owl-theme">
+                            <div class="item imagen-resposiva redondo">
+                                <img src="img/arte1.jpg" alt="">
+                                <h3>Tenemos Las Mejores Creaciones que cautivaran tus sentidos</h3>
+                            </div>
+                            <div class="item imagen-resposiva">
+                                <img src="img/arte2.jpg" alt="">
+                                <h3>Cada Creación es hecha con amor y dedicación</h3>
+                            </div>
+                            <div class="item imagen-resposiva">
+                                <img src="img/arte3.jpg" alt="">
+                                <h3>Plasmamos lo mejores momentos en cada creación </h3>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+        </section>
+        <section id="nosotros" class="seccion">
+            <div class="fila">
+                <div class="columna ">
+                    <div class="card">
+                        <div class="imagen-card">
+                        <img src="img/obj1.jpg" alt="">
+                        <span>Objetivos</span>
+                        </div>
+                        <div class="card-contenido">
+                            <p>Tener las mejores creaciones que permitan a nuestros clientes tener una amplia carta de elecciones que se acoplen a todos los momentos, brindando siempre el mejor servicio con la mejor actitud siempre dando nuestras creaciones a los mejores precios y con la mejor calidad.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fila nosotros">
+                     <div class="columna columna-33">
+                        <div class="card">
+                            <div class="imagen-card">
+                            <img src="img/obj1.jpg" alt="">
+                            <span>Misión</span>
+                            </div>
+                            <div class="card-contenido">
+                                <p>Somos una organización joven dedicada a la creación de manualidades basadas en fomi, para personas que desean dar un presente creativo, para dar nuevas perspectivas de un presente creativo que se quiera ofrecer usando materiales innovadores y útiles para todos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna columna-33">
+                        <div class="card">
+                            <div class="imagen-card">
+                            <img src="img/obj1.jpg" alt="">
+                            <span>Visión</span>
+                            </div>
+                            <div class="card-contenido">
+                                <p>Para 2022 desea amor ser un modelo de propuesta para todas las personas que quieren conseguir detalles novedosos y ante todo a excelente costo, Brindando ventajas para los pagos y catálogos que permitan ver todas nuestras creaciones adicionales exponer la posibilidad de hacer cualquier cosa que se desee entregar.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="galeria">
-            <div class="container">
-                <div class="fila">
-                    <div class="columna galeria container wow slideInRight">
-                         <div class="fotorama">
-                            <img src="img/galeria/2 (1).jpeg">
-                           <img src="img/galeria/2 (1).jpg">                             <img src="img/galeria/2 (1).png" class="imagen-galeria">
-                            <img src="img/galeria/2 (1).png">
-                            <img src="img/galeria/2 (2).jpeg">
-                            <img src="img/galeria/2 (2).jpg">
-                            <img src="img/galeria/2 (3).jpeg">
-                            <img src="img/galeria/2 (3).jpg">
-                            <img src="img/galeria/2 (4).jpeg">
-                            <img src="img/galeria/2 (4).jpg">
-                            <img src="img/galeria/2 (5).jpeg">
-                            <img src="img/galeria/2 (5).jpg">
-                            <img src="img/galeria/2 (6).jpeg">
-                            <img src="img/galeria/2 (6).jpg"> 
-                            <img src="img/galeria/2 (7).jpeg">
-                            <img src="img/galeria/2 (7).jpg">
-                            <img src="img/galeria/2 (8).jpeg">
-                            <img src="img/galeria/2 (8).jpg">
-                            <img src="img/galeria/2 (9).jpeg">
-                            <img src="img/galeria/2 (9).jpg">
-                            <img src="img/galeria/2 (10).jpeg">
-                        </div> 
+        <section id="galeria" class="seccion">
+            <div class="fila">
+                <div class="columna">
+                    <h2>Galeria</h2>
+                </div>
+                <div class="columna gallery">
+                    <div class="galeria">
+                        <div class="fotorama"      
+                        data-width="1200"
+                        data-maxwidth="100%"
+                        data-ratio="16/9"
+                        data-allowfullscreen="true"
+                        data-nav="thumbs"
+                        data-autoplay="2000"
+                        data-fit="scaledown"
+                        data-transition="crossfade"
+                        data-loop="true"
+                        data-keyboard="true"
+                        data-click="true"   >
+                        <a href="img/galeria/2 (1).jpeg"></a>
+                        <a href="img/galeria/2 (1).jpg"></a>
+                        <a href="img/galeria/2 (1).png"></a>
+                        <a href="img/galeria/2 (2).jpeg"></a>
+                        <a href="img/galeria/2 (2).jpg"></a>
+                        <a href="img/galeria/2 (3).jpeg"></a>
+                        <a href="img/galeria/2 (3).jpg"></a>
+                        <a href="img/galeria/2 (4).jpeg"></a>
+                        <a href="img/galeria/2 (4).jpg"></a>
+                        <a href="img/galeria/2 (5).jpeg"></a>
+                        <a href="img/galeria/2 (5).jpg"></a>
+                        <a href="img/galeria/2 (6).jpeg"></a>
+                        <a href="img/galeria/2 (6).jpg"></a>
+                        <a href="img/galeria/2 (7).jpeg"></a>
+                        <a href="img/galeria/2 (7).jpg"></a>
+                        <a href="img/galeria/2 (8).jpeg"></a>
+                        <a href="img/galeria/2 (8).jpg"></a>
+                        <a href="img/galeria/2 (9).jpeg"></a>
+                        <a href="img/galeria/2 (9).jpg"></a>
+                        <a href="img/galeria/2 (10).jpeg"></a>
+                        <a href="img/galeria/2 (10).jpeg"></a>
+                        <a href="img/galeria/2 (11).jpeg"></a>
+                        <a href="img/galeria/2 (11).jpg"></a>
+                        <a href="img/galeria/2 (12).jpeg"></a>
+                        <a href="img/galeria/2 (12).jpg"></a>
+                        <a href="img/galeria/2 (13).jpeg"></a>
+                        <a href="img/galeria/2 (13).jpg"></a>
+                        <a href="img/galeria/2 (14).jpeg"></a>
+                        <a href="img/galeria/2 (14).jpg"></a>
+                        <a href="img/galeria/2 (15).jpeg"></a>
+                        <a href="img/galeria/2 (15).jpg"></a>
+                        <a href="img/galeria/2 (16).jpeg"></a>
+                        <a href="img/galeria/2 (16).jpg"></a>
+                        <a href="img/galeria/2 (17).jpeg"></a>
+                        <a href="img/galeria/2 (17).jpg"></a>
+                        <a href="img/galeria/2 (18).jpeg"></a>
+                        <a href="img/galeria/2 (18).jpg"></a>
+                        <a href="img/galeria/2 (19).jpeg"></a>
+                        <a href="img/galeria/2 (20).jpg"></a>
+                        <a href="img/galeria/2 (21).jpg"></a>
+                        <a href="img/galeria/2 (22).jpg"></a>
+                        <a href="img/galeria/2 (23).jpg"></a>
+                        <a href="img/galeria/2 (24).jpg"></a>
+                        <a href="img/galeria/2 (25).jpg"></a>
+                        <a href="img/galeria/2 (26).jpg"></a>
+                        <a href="img/galeria/2 (27).jpg"></a>
+                        <a href="img/galeria/2 (28).jpg"></a>
+                        <a href="img/galeria/2 (29).jpg"></a>
+                        <a href="img/galeria/2 (30).jpg"></a>
+                        <a href="img/galeria/2 (31).jpg"></a>
+                        <a href="img/galeria/2 (32).jpg"></a>
+                        <a href="img/galeria/2 (33).jpg"></a>
+                        <a href="img/galeria/2 (34).jpg"></a>
+                        <a href="img/galeria/2 (34).jpg"></a>
+                        <a href="img/galeria/2 (35).jpg"></a>
+                        <a href="img/galeria/2 (36).jpg"></a>
+                        <a href="img/galeria/2 (37).jpg"></a>
+                        <a href="img/galeria/2 (38).jpg"></a>
+                        <a href="img/galeria/2 (39).jpg"></a>
+                        <a href="img/galeria/2 (40).jpg"></a>
+                        <a href="img/galeria/2 (41).jpg"></a>
+                        <a href="img/galeria/2 (42).jpg"></a>
+                        <a href="img/galeria/2 (43).jpg"></a>
+                        <a href="img/galeria/2 (44).jpg"></a>
+                        <a href="img/galeria/2 (45).jpg"></a>
+                        <a href="img/galeria/2 (46).jpg"></a>
+                        <a href="img/galeria/2 (47).jpg"></a>
+                        <a href="img/galeria/2 (48).jpg"></a>
+                        <a href="img/galeria/2 (49).jpg"></a>
+                        <a href="img/galeria/2 (50.jpg"></a>
+                        <a href="img/galeria/2 (51).jpg"></a>
+                          </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container">
-                <div class="fila">
-                    <div class="trama-video">
-                        <video class="video-fondo" src="videos/arte.mp4" autoplay loop muted></video>
+        <section id="contactenos">
+            <div class="fila">
+                <div class="columna">
+                    <div class="video-fondo">
+                        <div class="fondo">
+                            <video src="videos/restaurante.mp4" autoplay loop muted></video>
+                        </div>
                     </div>
-                </div>
-                <div class="fila formulario">
                     <div class="columna">
-                        <h2 class="bloque-titulo">Contactenos para tener el gusto de atenderle</h2>
-                        <form action="php/contacto.php"></form>
-                        <div class="blq-formulario">
-                            <input type="text" name="nombre" id="" placeholder="Nombre Completo">
-                        </div>
-                        <div class="blq-formulario">
-                            <input type="text" name="email" id="" placeholder="Correo Electronico">
-                        </div>
-                        <div class="blq-formulario">
-                            <input type="text" name="telefono" id="" placeholder="Telefono de Contacto">
-                        </div>
-                        <div class="blq-formulario">
-                            <textarea name="pedido" id="" cols="30" rows="10"></textarea placeholder="Inidicanos tu Pedido">
-                        </div>
-                        <div class="blq-formulario">
-                            <input type="submit" value="Enviar">
+                        <div class="formulario">
+                            <form action="">
+                                <div class="titulo-frm">
+                                    <h2>Contactenos para tener el gusto de atenderle</h2>
+                                </div>
+                                <div class="frm-bloque">
+                                    <input type="text" name="nombre" id="" placeholder="Nombre Completo">
+                                    
+                                </div>
+                                <div class="frm-bloque">
+                                    <input type="text" name="email" id="" placeholder="Correo Electrónico">
+                                    
+                                </div>
+                                <div class="frm-bloque">
+                                    <input type="text" name="telefono" id="" placeholder="Teléfono">
+                                    
+                                </div>
+                                <div class="frm-bloque">
+                                    <textarea name="mensaje" id="" placeholder="Indícanos tu Pedido "></textarea>
+                                </div>
+                                <div class="frm-bloque">
+                                    <input type="submit" value="Enviar" class="btn">
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <div class="columna columna-33 panel left">
+                <ul>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <a href="https://api.whatsapp.com/send?phone=573008379069&text=Hola%20Buen%20Dia...." target="_blank">+57 300 8379069</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <a href="https://api.whatsapp.com/send?phone=573208782774&text=Hola%20Buen%20Dia..." target="_blank">+57 320 8782774</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:afoamycreaciones@gmail.com" target="_blank">afoamycreaciones@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="columna columna-33 centro">
+                <img src="img/MinLogo.png" alt="">
+                <div>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>        
+            </div>
+            <div class="columna columna-33 panel right">
+                <ul>
+                    <li><a href="#">Protección de Datos </a></li>
+                    <li>Síguenos en redes</li>
+                    <li><a href="#">Aulas de Creación </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="derechos">
+            <p>&copy Derechos reservados 2021</p>
+        </div>   
+    </footer>
 </body>
 <script src="js/funciones.js"></script>
 </html>
